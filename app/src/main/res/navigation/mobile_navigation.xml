@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/side_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.rokad.demo.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.rokad.demo.gallery.GalleryFragment"
+        android:label="@string/sample_1"
+        tools:layout="@layout/sample_1" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.rokad.demo.slideshow.SlideshowFragment"
+        android:label="@string/sample_2"
+        tools:layout="@layout/sample_2" />
+
+    <fragment
+        android:id="@+id/nav_tools"
+        android:name="com.rokad.demo.tools.ToolsFragment"
+        android:label="@string/sample_3"
+        tools:layout="@layout/sample_3" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.rokad.demo.share.ShareFragment"
+        android:label="@string/sample_4"
+        tools:layout="@layout/sample_4" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.rokad.demo.send.SendFragment"
+        android:label="@string/sample_5"
+        tools:layout="@layout/sample_5" />
+</navigation>
